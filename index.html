@@ -2876,7 +2876,7 @@
                         role="button"
                       >
                         <span class="elementor-button-content-wrapper">
-                          <span class="elementor-button-text">Contact Us 5.0</span>
+                          <span class="elementor-button-text">Contact Us 6.0</span>
                         </span>
                       </a>
                     </div>
@@ -3202,5 +3202,17 @@
       src="https://cavic.africa/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.6.7"
       id="elementor-frontend-js"
     ></script>
+    <script>
+        type="text/javascript"
+        const toggleMenu = () => {
+            console.log("clicked");
+            var x = document.getElementById("dropdown");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+    </script>
   </body>
 </html>
