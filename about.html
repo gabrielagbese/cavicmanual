@@ -2362,5 +2362,17 @@
       src="https://cavic.africa/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.6.7"
       id="elementor-frontend-js"
     ></script>
+    <script>
+        type="text/javascript"
+        const toggleMenu = () => {
+            console.log("clicked");
+            var x = document.getElementById("dropdown");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+    </script>
   </body>
 </html>
