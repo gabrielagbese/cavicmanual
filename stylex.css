@@ -50,7 +50,7 @@ body{
   
   /* Change the color of links on hover */
   .nav-main a:hover {
-    color: #FF5409;
+    color: #ff53097d;
   }
   
   /* Add an active class to highlight the current page */
